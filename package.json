@@ -1,0 +1,16 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Jim Garrett<jgarrett@redhat.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js "
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.13.3",
+    "mysql": "^2.11.1",
+    "nodemon": "^1.11.0"
+  }
+}
